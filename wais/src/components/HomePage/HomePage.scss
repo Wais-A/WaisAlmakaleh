@@ -1,0 +1,40 @@
+body {
+    // background: rgba(1, 4, 32, 0.794);
+
+    
+    .container {
+        margin: 25% 20% 0 20%;
+        border: 5px double white;
+        border-width: 2px 0px;
+        height: 0px;
+        width: 60%;
+        opacity: 0;
+
+
+    }
+
+    .name {
+        opacity: 0;
+        color: white;
+    }
+}
+
+.open {
+    transition: 1.5s;
+    margin: 15% 20% 0 20%;
+    padding: 20px 0;
+    border: 5px double white;
+    border-width: 2px 0px;
+    height: 100px;
+    width: 60%;
+
+
+    .name {
+        transition-duration: 2s;
+        transition-delay: 2s;
+        opacity: 1;
+        color: white;
+
+    }
+}
+
