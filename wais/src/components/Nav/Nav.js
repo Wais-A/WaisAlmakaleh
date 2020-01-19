@@ -16,16 +16,16 @@ const [classname, setClass] = useState('nav');
         <div className={classname}>
             <nav>
                 <Link to='/Intro'>
-                    <a>INTRO</a>
+                    INTRO
                 </Link>
-                <Link>
-                 <a>WORK</a>
+                <Link to='/'>
+                 WORK
                 </Link>
-                <Link>
-                <a>ABOUT</a>
+                <Link to='/'>
+                ABOUT
                 </Link>
-                <Link>
-                <a>CONTACT</a>
+                <Link to='/'>
+                CONTACT
                 </Link>
                 </nav>
         </div>
